@@ -1172,6 +1172,7 @@ pre code {
   .col-lg-4 {
     flex: 0 0 33.33333%;
     max-width: 33.33333%;
+    color: #fff;
   }
   .col-lg-5 {
     flex: 0 0 41.66667%;
@@ -1180,6 +1181,7 @@ pre code {
   .col-lg-6 {
     flex: 0 0 50%;
     max-width: 50%;
+    color: #000;
   }
   .col-lg-7 {
     flex: 0 0 58.33333%;
@@ -1204,6 +1206,7 @@ pre code {
   .col-lg-12 {
     flex: 0 0 100%;
     max-width: 100%;
+    color: #fff;
   }
   .order-lg-first {
     order: -1;
@@ -7818,12 +7821,13 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 15rem !important;
+  background-image: url(/assets/images/about.jpg);
 }
 
 .pr-5,
 .px-5 {
-  padding-right: 3rem !important;
+  padding-right: 10rem !important;
 }
 
 .pb-5,
