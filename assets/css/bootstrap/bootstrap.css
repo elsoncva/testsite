@@ -58,7 +58,7 @@ hgroup,
 main,
 nav,
 section {
-  display: block;
+  display:block;
 }
 
 body {
@@ -566,6 +566,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  background-image: url(/assets/images/about.jpg);
 }
 
 @media (min-width: 576px) {
@@ -7753,7 +7754,8 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 10rem !important;
+
 }
 
 .pr-5,
@@ -7763,7 +7765,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 10rem !important;
 }
 
 .pl-5,
@@ -7903,6 +7905,7 @@ button.bg-dark:focus {
 .mr-auto,
 .mx-auto {
   margin-right: auto !important;
+  margin-top: 10rem;
 }
 
 .mb-auto,
@@ -7913,6 +7916,7 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important;
+  margin-top: 3rem;
 }
 
 @media (min-width: 576px) {
@@ -8820,7 +8824,7 @@ button.bg-dark:focus {
   }
   .pt-lg-5,
   .py-lg-5 {
-    padding-top: 3rem !important;
+    padding-top: 10rem !important;
   }
   .pr-lg-5,
   .px-lg-5 {
